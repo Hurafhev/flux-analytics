@@ -1,0 +1,1 @@
+/usr/bin/c++    -march=native -g -Wall -pedantic -D_GLIBCXX_DEBUG -fsanitize=address  -rdynamic CMakeFiles/mark.exe.dir/main.cpp.o  -o mark.exe lib/liblib.a 

@@ -1,0 +1,42 @@
+
+#setup file example
+#This showcases all keywords and their usage.
+#Empty lines will be ignored. A '#' marks a line as a comment. There are no multi-line comments.
+
+#The programm only accepts two types of syntax (both single-line): 
+#[keyword ending with a ':'] [spaces or tabs] [designated value]
+#[other keywords]
+
+#folder name for saving data
+folder: example_folder_name
+
+#text files containing the data for r- and z-component of the field
+r_comp: /home/hurafhev/Downloads/e_velr_83600720.dat
+z_comp: /home/hurafhev/Downloads/e_velz_83600720.dat
+
+#factor to convert from the given data to cm/s, 100 by default (m/s to cm/s)
+conversion: 100
+
+#dr or cell_size (whatever you prefer) given in cm
+cell_size: 9.9e-04
+
+#count of markers to use
+markerc: 100
+
+#boundaries for random marker initialization given in cells
+r_min: 0
+r_max: 50
+z_min: 0
+z_max: 250
+
+#time to simulate given in seconds
+time: 0.001
+
+#choose wether or not to output the progress in percent, disabled by default
+set_progress
+unset_progress
+
+#adjust dt to have a proper resolution of about 5 steps per cell, enabled by default; else using a global dt for a minimum resultion of about 5 steps per cell
+unset_adapt_dt
+set_adapt_dt
+

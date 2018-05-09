@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/hurafhev/Dokumente/particle_tracker",
+  "command": "/usr/bin/c++      -march=native -g -Wall -pedantic -D_GLIBCXX_DEBUG -fsanitize=address   -std=gnu++14 -o CMakeFiles/mark.exe.dir/main.cpp.o -c /home/hurafhev/Dokumente/particle_tracker/main.cpp",
+  "file": "/home/hurafhev/Dokumente/particle_tracker/main.cpp"
+},
+{
+  "directory": "/home/hurafhev/Dokumente/particle_tracker/lib",
+  "command": "/usr/bin/c++      -march=native -g -Wall -pedantic -D_GLIBCXX_DEBUG -fsanitize=address   -std=gnu++14 -o CMakeFiles/lib.dir/vector.cpp.o -c /home/hurafhev/Dokumente/particle_tracker/lib/vector.cpp",
+  "file": "/home/hurafhev/Dokumente/particle_tracker/lib/vector.cpp"
+},
+{
+  "directory": "/home/hurafhev/Dokumente/particle_tracker/lib",
+  "command": "/usr/bin/c++      -march=native -g -Wall -pedantic -D_GLIBCXX_DEBUG -fsanitize=address   -std=gnu++14 -o CMakeFiles/lib.dir/field.cpp.o -c /home/hurafhev/Dokumente/particle_tracker/lib/field.cpp",
+  "file": "/home/hurafhev/Dokumente/particle_tracker/lib/field.cpp"
+},
+{
+  "directory": "/home/hurafhev/Dokumente/particle_tracker/lib",
+  "command": "/usr/bin/c++      -march=native -g -Wall -pedantic -D_GLIBCXX_DEBUG -fsanitize=address   -std=gnu++14 -o CMakeFiles/lib.dir/routine.cpp.o -c /home/hurafhev/Dokumente/particle_tracker/lib/routine.cpp",
+  "file": "/home/hurafhev/Dokumente/particle_tracker/lib/routine.cpp"
+}
+]

@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib.a  CMakeFiles/lib.dir/vector.cpp.o CMakeFiles/lib.dir/field.cpp.o CMakeFiles/lib.dir/routine.cpp.o
+/usr/bin/ranlib liblib.a

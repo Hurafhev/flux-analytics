@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hurafhev/Dokumente/particle_tracker/lib/field.hpp
+vector
+-
+string
+-
+cstddef
+-
+vector.hpp
+/home/hurafhev/Dokumente/particle_tracker/lib/vector.hpp
+
+/home/hurafhev/Dokumente/particle_tracker/lib/routine.hpp
+string
+-
+vector
+-
+field.hpp
+/home/hurafhev/Dokumente/particle_tracker/lib/field.hpp
+vector.hpp
+/home/hurafhev/Dokumente/particle_tracker/lib/vector.hpp
+
+/home/hurafhev/Dokumente/particle_tracker/lib/vector.hpp
+cmath
+-
+
+/home/hurafhev/Dokumente/particle_tracker/main.cpp
+lib/routine.hpp
+/home/hurafhev/Dokumente/particle_tracker/lib/routine.hpp
+lib/field.hpp
+/home/hurafhev/Dokumente/particle_tracker/lib/field.hpp
+lib/vector.hpp
+/home/hurafhev/Dokumente/particle_tracker/lib/vector.hpp
+
